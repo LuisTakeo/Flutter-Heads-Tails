@@ -23,7 +23,7 @@ class _HeadsAndTailsState extends State<HeadsAndTails> {
     var resultado = resultados[numeroSorteado];
 
     Navigator.push(
-        context, MaterialPageRoute(builder: (context) => Resultado()));
+        context, MaterialPageRoute(builder: (context) => Resultado(resultado)));
   }
 
   @override
